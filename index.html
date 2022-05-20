@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox - Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper centerd">
+        <div class="inner">
+            <div class="logo centerd">
+                <img class="logo-image" width="96px" height="96px" src="./logo4.png" alt="ASTERISK">
+            </div>
+            <div class="search-bar">
+                <form autocomplete="off">
+                <input type="text" class="search-input" placeholder="Seach Fox" onkeyup="this.value = this.value.replace(/[^a-zA-Z0-9]/g,' ')">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+    <script type="text/javascript">
+        document.addEventListener('BeforeFormSubmit', function(event) {
+        var x = document.getElementById("search-input").value;
+        document.getElementById("search-input").value=x.replace(/[^a-zA-Z0-9 ]/g, "");
+        });
+        </script> 
+</body>
+</html>
