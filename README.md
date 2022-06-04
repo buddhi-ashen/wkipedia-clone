@@ -51,8 +51,11 @@ No frameworks are used in this project
 
 * **Buddhi ashen** - *Initial work* - [buddhi-ashen](https://github.com/buddhi-ashen)
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69063039/171983308-cfe3fd80-8781-48dd-9199-11a86093b80b.jpg)
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69063039/171983312-45821021-e019-4437-9178-9be26a8585dc.jpg)
