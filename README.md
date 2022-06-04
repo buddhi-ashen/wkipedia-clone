@@ -1,6 +1,7 @@
 # wkipedia-clone
 
-A wkipedia clone for simple working purposes
+A wkipedia clone for simple working purposes. visit: https://foxwiki.netlify.app/
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/69063039/171983454-7171da66-b74a-44da-8eb0-018926de4e31.jpg)
 
 ## Getting Started
 
@@ -51,7 +52,7 @@ No frameworks are used in this project
 
 * **Buddhi ashen** - *Initial work* - [buddhi-ashen](https://github.com/buddhi-ashen)
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/69063039/171983454-7171da66-b74a-44da-8eb0-018926de4e31.jpg)
+
 
 ## License
 
