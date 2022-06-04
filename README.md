@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 we recomend to install visual studio code and following vs code plugins
 1. live server
 2. wkipedia api
+3. unsplash api
 
 ```
 https://code.visualstudio.com/
@@ -25,6 +26,17 @@ Page we want to retrieve: https://en.wikipedia.org/wiki/JavaScript
 API Request URL: https://en.wikipedia.org/w/api.php?action=parse&page=JavaScript&format=json&prop=text
 
 Read more: https://www.mediawiki.org/wiki/API:Tutorial
+
+// set image source to a random image
+img.src = "https://source.unsplash.com/random";
+
+// get a random image with the size 800x600
+img.src = "https://source.unsplash.com/random/800x600"
+
+// Apply search terms
+img.src = "https://source.unsplash.com/1600x900/?nature,water"
+
+// More info: https://source.unsplash.com
 ```
 
 ## Deployment
